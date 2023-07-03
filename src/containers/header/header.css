@@ -1,0 +1,23 @@
+.painting__header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.painting__header h1 {
+    display: inline-block;
+    text-decoration: underline;
+    padding: 1rem;
+    color: #000;
+    font-size: 60px;
+    font-family: var(--font-family);
+    font-weight: 400;
+}
+
+.painting__header p {
+    color: #000;
+    font-size: 20px;
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 400;
+}

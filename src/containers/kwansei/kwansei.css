@@ -1,0 +1,80 @@
+.painting__kwansei {
+    display: flex;
+}
+
+.painting__kwansei-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.painting__kwansei-image img {
+    height: 80%;
+    width: 100%;
+    
+}
+
+.painting__kwansei-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 5rem;
+}
+
+.painting__kwansei-content h1 {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--font-family);
+    font-weight: 400;
+}
+
+.painting__kwansei-content-p {
+    color: #000;
+    
+    font-size: 20px;
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 400;
+    margin: 2rem 4rem;
+}
+
+.painting__kwansei-content p {
+    color: #000;
+    
+    font-size: 20px;
+    font-family: var(--font-family);
+    margin: 1rem;
+    font-weight: 400;
+
+}
+
+@media screen and (max-width:1050px) {
+    .painting__kwansei {
+        flex-direction: column-reverse;
+        
+        text-align: center;
+    }
+
+    .painting__kwansei-content {
+        /* margin: 0 0 0 3.5rem; */
+        margin: 0 0 3rem;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    .painting__kwansei-content h1{
+        font-size: 30px;
+
+    }
+
+    .painting__kwansei-content p {
+        font-size: 14px;
+    }
+}

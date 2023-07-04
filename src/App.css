@@ -6,13 +6,20 @@
 
 }
 
-
-
-body {
-    /* background: var(--color-bg); */
+.image__bg {
     background-image: url(/src/assets/background.png);
     background-repeat: no-repeat;
     background-size: cover;
+    
+}
+
+.black__bg {
+    background-color: black;
+}
+body {
+    /* background: var(--color-bg); */
+    /* background-color: #000; */
+    
 }
 
 

@@ -18,6 +18,12 @@ const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false) 
     return (
         <div className="painting__navbar">
+            <div className="painting__navbar-logo">
+
+            </div>
+            <div className="painting__navbar-links">
+                
+            </div>
 
         </div>
     )

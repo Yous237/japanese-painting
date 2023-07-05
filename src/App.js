@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 
-import { Header, Nakamura, Kwansei, Navbar } from './containers'
+import { Header, Nakamura, Kwansei, Navbar, Irises } from './containers'
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
         <Kwansei/>
       </div>
       <div className="black__bg">
-
+        <Irises/>
       </div>
     </div>
     

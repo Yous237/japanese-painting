@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import {RiMenu3Line, RiCloseLine} from 'react-icons/ri'
 import './navbar.css'
 
+
+
 const Menu = () => {
     return (
         <React.Fragment>
@@ -17,12 +19,12 @@ const Navbar = () => {
 
     const [toggleMenu, setToggleMenu] = useState(false) 
     return (
-        <div className="painting__navbar">
+        <div className="painting__navbar" id='navbar'>
             <div className="painting__navbar-logo">
-
+                <h1>尾形 光琳</h1>
             </div>
             <div className="painting__navbar-links">
-                
+                <Menu/>
             </div>
 
         </div>

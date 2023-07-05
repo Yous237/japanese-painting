@@ -1,0 +1,42 @@
+.painting__navbar {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    padding: 2rem 6rem;
+}
+
+.painting__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem 1rem;
+}
+
+.painting__navbar-links p{
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+    
+}
+
+.painting__navbar-links p:hover{
+    border: 1px solid white;
+    
+    
+    
+}
+
+.painting__navbar-logo {
+    margin-right: 4rem;
+}
+

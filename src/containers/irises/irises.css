@@ -1,4 +1,16 @@
 .painting__irises {
     color: aliceblue;
+    display: flex   ;
+    padding: 2rem 2rem;
+}
+
+.painting__irises-content {
+    flex: 1;
+
+}
+
+.painting__irises-titles {
     display: flex;
+    padding: 1rem 0rem;
+    
 }

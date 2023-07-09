@@ -37,6 +37,21 @@ a {
     margin: 4rem 6rem;
 }
 
+.painting__irises-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 10px 0rem;
+    padding: 0rem 0rem;
+}
+
+.painting__mssa-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+}
 
 @media screen and (max-width: 700px) {
     .section__padding {

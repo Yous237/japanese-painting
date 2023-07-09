@@ -1,16 +1,128 @@
 .painting__irises {
     color: aliceblue;
     display: flex   ;
+    
     padding: 2rem 2rem;
 }
 
 .painting__irises-content {
-    flex: 1;
+    flex: 2;
 
 }
 
+.painting__irises-content p {
+    color: #fff;
+    
+    font-size: 20px;
+    font-family: var(--font-family);
+    margin: 1rem;
+    font-weight: 400;
+}
+
+
+
 .painting__irises-titles {
     display: flex;
-    padding: 1rem 0rem;
+    margin: 1rem;
     
+    
+}
+
+.painting__irises-titles h2 {
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    
+}
+
+.painting__irises-titles h4 {
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 26px;
+    font-weight: 400;
+    margin: 0.5rem 1rem;
+}
+
+.painting__irises-container-letters{
+    flex: 0.5;
+    display: flex;
+   
+
+    
+    
+}
+.painting__irises-japanese-letters {
+    
+}
+.painting__irises-japanese-letters p {
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    
+    
+}
+
+/* box sizing */
+
+.painting__irises-letters {
+    position: relative;
+}
+
+
+.painting__irises-letters p {
+    
+    
+    /* margin-top: 0; 
+    padding: 6rem 3rem; */
+    
+    padding-bottom: 8rem;
+    
+    position: absolute;
+    top: 50%; /* Position from the top center */
+    left: 0; /* Align to the left side */
+    transform: translate(-50%, -50%) rotate(90deg); /* Use translate and rotate to center and rotate the element */
+    transform-origin: 50% 50%; /* Set the transform origin to the center of the element */
+    white-space: nowrap;
+    color: #FFF;
+    font-size: 56px;
+    font-style: italic;
+    font-weight: 400;
+
+} 
+
+@media screen and (max-width: 550px) {
+    .painting__irises-container-letters{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .painting__irises-titles {
+        flex-direction: column;
+    }
+
+    .painting__irises-titles h2{
+        white-space: nowrap;
+    }
+
+    .painting__irises-titles h4{
+        
+        font-size: 20px;
+        margin: 0rem 0rem;
+    }
+
+    
+
+    .painting__irises-letters p{
+        
+        margin-left : 13.5rem;
+        margin-top: 10rem;
+        transform-origin: 0 0;
+    }
+
+    .painting__irises-japanese-letters p {
+        flex: 1;
+    }
 }

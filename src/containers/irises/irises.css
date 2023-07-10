@@ -93,6 +93,16 @@
 
 } 
 
+@media screen and (max-width: 1050px) {
+    
+}
+
+@media screen and (max-width: 800px) {
+    .painting__irises-letters p {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 550px) {
     .painting__irises-container-letters{
         text-align: center;
@@ -116,7 +126,7 @@
     
 
     .painting__irises-letters p{
-        
+        display: block;
         margin-left : 13.5rem;
         margin-top: 10rem;
         transform-origin: 0 0;

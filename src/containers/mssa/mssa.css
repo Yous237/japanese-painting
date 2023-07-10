@@ -1,0 +1,149 @@
+.painting__mssa {
+    color: aliceblue;
+    display: flex   ;
+    
+    padding: 2rem 2rem;
+}
+
+.painting__mssa-content {
+    flex: 2;
+
+}
+
+.painting__mssa-content p {
+    color: #fff;
+    
+    font-size: 20px;
+    font-family: var(--font-family);
+    margin: 1rem;
+    font-weight: 400;
+}
+
+
+
+.painting__mssa-titles {
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+    
+}
+
+.painting__mssa-titles h2 {
+    word-break: break-word;
+
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    
+}
+
+.painting__mssa-titles h4 {
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 26px;
+    font-weight: 400;
+    margin: 0.5rem 1rem;
+}
+
+.painting__mssa-container-letters{
+    flex: 0.5;
+    display: flex;
+}
+.painting__mssa-japanese-letters {
+    
+}
+.painting__mssa-japanese-letters p {
+    
+    margin-top: 1rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    
+    
+}
+
+/* box sizing */
+
+.painting__mssa-letters {
+    position: relative;
+}
+
+
+.painting__mssa-letters p {
+    
+    
+    /* margin-top: 0; 
+    padding: 6rem 3rem; */
+    
+    padding-bottom: 10rem;
+    
+    
+    position: absolute;
+    top: 50%; /* Position from the top center */
+    left: 0; /* Align to the left side */
+    transform: translate(-50%, -50%) rotate(90deg); /* Use translate and rotate to center and rotate the element */
+    transform-origin: 50% 50%; /* Set the transform origin to the center of the element */
+    white-space: nowrap;
+    color: #FFF;
+    font-size: 56px;
+    font-style: italic;
+    font-weight: 400;
+
+} 
+
+@media screen and (max-width: 1050px) {
+    
+}
+
+@media screen and (max-width: 800px) {
+    .painting__mssa-letters p {
+        display: none;
+    }
+
+    .painting__mssa-japanese-letters {
+        /* display: none; */
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .painting__mssa {
+        
+    }
+
+    .painting__mssa-container-letters{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .painting__mssa-titles {
+        flex-direction: column;
+    }
+
+    .painting__mssa-titles h2{
+        
+    }
+
+    .painting__mssa-titles h4{
+        
+        font-size: 20px;
+        margin: 0rem 0rem;
+    }
+
+    
+
+    .painting__mssa-letters p{
+        display: block;
+        margin-left : 13.5rem;
+        margin-top: 10rem;
+        transform-origin: 0 0;
+    }
+
+    .painting__mssa-japanese-letters p {
+        display: block;
+        flex: 1;
+    }
+}

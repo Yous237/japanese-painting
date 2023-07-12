@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/japanese-painting/static/css/main.2c16b1f5.css",
+    "main.js": "/japanese-painting/static/js/main.b891da8b.js",
+    "static/media/background.png": "/japanese-painting/static/media/background.56f7f8fcb89da5d2ae02.png",
+    "static/media/irises.png": "/japanese-painting/static/media/irises.b0e93468c72e1217b5fc.png",
+    "static/media/mssa.png": "/japanese-painting/static/media/mssa.a6fb4e1d34a92711e7e8.png",
+    "static/media/kwansei.png": "/japanese-painting/static/media/kwansei.23bdfead4eab7d5281ae.png",
+    "static/media/nakamura.png": "/japanese-painting/static/media/nakamura.4fc072ffea93badee943.png",
+    "static/media/test.png": "/japanese-painting/static/media/test.47a4a4a78bd054a19a7c.png",
+    "index.html": "/japanese-painting/index.html",
+    "main.2c16b1f5.css.map": "/japanese-painting/static/css/main.2c16b1f5.css.map",
+    "main.b891da8b.js.map": "/japanese-painting/static/js/main.b891da8b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c16b1f5.css",
+    "static/js/main.b891da8b.js"
+  ]
+}

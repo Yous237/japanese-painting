@@ -6,7 +6,7 @@ import test from '../../assets/test.png'
 
 const Irises = () => {
   return (
-    <div className="painting__irises ">
+    <div className="painting__irises "id='irises'>
         <div className="painting__irises-content">
           <p>Born in Kyoto, Ogata Kōrin (1658-1716) was a Japanese painter and landscape illustrator of  one of the major historicals schools of Japanese painting, Rinpa School. Successor of Tawaraya Sōtatsu, Korin is recognized as one of the pillars of the Rinpa school.</p>
           <p>

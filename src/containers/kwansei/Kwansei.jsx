@@ -4,7 +4,7 @@ import kwansei from '../../assets/kwansei.png'
 
 const Kwansei = () => {
   return (
-    <div className="painting__kwansei section__padding">
+    <div className="painting__kwansei section__padding" id='kwansei'>
         <div className="painting__kwansei-image">
             <img src={kwansei} alt="" />
         </div>

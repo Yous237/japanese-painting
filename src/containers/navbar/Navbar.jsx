@@ -7,10 +7,10 @@ import './navbar.css'
 const Menu = () => {
     return (
         <React.Fragment>
-            <p><a href=""></a>Nakamura</p>
-            <p><a href=""></a>Kwansei</p>
-            <p><a href=""></a>Irises</p>
-            <p><a href=""></a>Mountain Stream in Summer and Autumn</p>
+            <p><a href="#nakamura">Nakamura</a></p>
+            <p><a href="#kwansei">Kwansei</a></p>
+            <p><a href="#irises">Irises</a></p>
+            <p><a href="#mssa">Mountain Stream in Summer and Autumn</a></p>
         </React.Fragment>
     )
 }

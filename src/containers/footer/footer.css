@@ -1,0 +1,10 @@
+.painting__footer {
+    background-color: #343434;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.painting__footer-copyright {
+    color: #fff;
+}

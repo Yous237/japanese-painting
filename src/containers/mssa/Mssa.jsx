@@ -4,7 +4,7 @@ import './mssa.css'
 
 const Mssa = () => {
   return (
-    <div className="painting__mssa ">
+    <div className="painting__mssa" id='mssa'>
         <div className="painting__mssa-content">
             <div className="painting__mssa-titles">
                 <h2>Mountain Stream in Summer and Autumn - 19th century</h2>

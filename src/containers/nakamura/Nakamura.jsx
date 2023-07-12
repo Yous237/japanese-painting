@@ -3,7 +3,7 @@ import './nakamura.css'
 import nakamura from '../../assets/nakamura.png'
 const Nakamura = () => {
   return (
-    <div className="painting__nakamura section__padding">
+    <div className="painting__nakamura section__padding" id='nakamura'>
         <div className="painting__nakamura-content">
             <h1>The Actor Nakamura Nakazo I in the Role of Kan Shōjō</h1>
             <p className='painting__nakamura-content-p'>Katsukawa Shunshō (勝川春章) - c. 1775</p>

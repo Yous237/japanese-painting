@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 
-import { Header, Nakamura, Kwansei, Navbar, Irises, Mssa } from './containers'
+import { Header, Nakamura, Kwansei, Navbar, Irises, Mssa, Footer } from './containers'
 import irises from './assets/irises.png'
 import mssa from './assets/mssa.png'
 
@@ -26,7 +26,7 @@ const App = () => {
         </div>
         <Mssa/>
       </div>
-      
+      <Footer/>
       
       
     </div>

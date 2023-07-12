@@ -1,10 +1,11 @@
 .painting__footer {
-    background-color: #343434;
-    display: flex;
+    background-color: #141414;
     align-items: center;
     text-align: center;
+    
 }
 
-.painting__footer-copyright {
+.painting__footer-copyright p{
+    margin: 1rem;
     color: #fff;
 }
